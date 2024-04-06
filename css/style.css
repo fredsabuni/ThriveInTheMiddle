@@ -671,3 +671,32 @@ h6,
 .thrive-primary{
     color: #FFFFFFF;
 }
+
+.thrive-feature h4 {
+    color: #262052; /* Color for feature headings */
+}
+    
+.thrive-feature .thrive-feature-heading {
+    display: flex; /* Flex container */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Space between icon and text */
+}
+
+.thrive-feature p {
+    padding-top: 10px; /* Space between heading and paragraph */
+}
+
+.icon-check {
+    color: #262052; /* Color for icons */
+}
+
+/* Mobile styles */
+  @media (max-width: 767px) {
+    .col-lg-6 {
+    padding: 20px; /* Adds padding around the content on small screens */
+}
+
+.thrive-feature-heading h4 {
+      font-size: 16px; /* Optionally, adjust the font size for better readability on small screens */
+    }
+}
