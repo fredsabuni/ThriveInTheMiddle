@@ -5,6 +5,10 @@
     --dark: #252525;
 }
 
+p{
+    color: #F8F8F8;
+}
+
 h1,
 h2,
 .h1,
@@ -669,7 +673,7 @@ h6,
 }
 
 .thrive-primary{
-    color: #FFFFFFF;
+    color: #FFFFFF;
 }
 
 .thrive-feature h4 {
@@ -699,4 +703,11 @@ h6,
 .thrive-feature-heading h4 {
       font-size: 16px; /* Optionally, adjust the font size for better readability on small screens */
     }
+}
+
+hr {
+    border: none;  
+    height: 2px;  
+    background-color: #eb6413;  
+    margin: 20px 0;  
 }
