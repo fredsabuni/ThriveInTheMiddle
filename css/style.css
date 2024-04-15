@@ -700,7 +700,7 @@ h6,
     padding: 20px; /* Adds padding around the content on small screens */
 }
 
-.thrive-feature-heading h4 {
+    .thrive-feature-heading h4 {
       font-size: 16px; /* Optionally, adjust the font size for better readability on small screens */
     }
 }
